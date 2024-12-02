@@ -1,0 +1,472 @@
+[
+    {
+      "id": 1,
+      "name": "Visual Studio Code",
+      "category": "Development",
+      "description": "A lightweight and powerful source code editor.",
+      "repository": "https://github.com/microsoft/vscode",
+      "homepage": "https://code.visualstudio.com/",
+      "latest_version": "1.85.0",
+      "update_date": "2024-12-01",
+      "license": "MIT",
+      "downloads": [
+        {
+          "platform": "Windows",
+          "url": "https://code.visualstudio.com/Download"
+        },
+        {
+          "platform": "macOS",
+          "url": "https://code.visualstudio.com/Download"
+        },
+        {
+          "platform": "Linux",
+          "url": "https://code.visualstudio.com/Download"
+        }
+      ],
+      "stars": 155000,
+      "forks": 26000,
+      "watchers": 3200
+    },
+    {
+      "id": 2,
+      "name": "GIMP",
+      "category": "Design",
+      "description": "A free and open-source image editor.",
+      "repository": "https://gitlab.gnome.org/GNOME/gimp",
+      "homepage": "https://www.gimp.org/",
+      "latest_version": "2.10.34",
+      "update_date": "2024-11-28",
+      "license": "GPL-3.0",
+      "downloads": [
+        {
+          "platform": "Windows",
+          "url": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/"
+        },
+        {
+          "platform": "macOS",
+          "url": "https://download.gimp.org/mirror/pub/gimp/v2.10/mac/"
+        },
+        {
+          "platform": "Linux",
+          "url": "https://www.gimp.org/downloads/"
+        }
+      ],
+      "stars": 34000,
+      "forks": 5000,
+      "watchers": 1200
+    },
+    {
+      "id": 3,
+      "name": "OBS Studio",
+      "category": "Multimedia",
+      "description": "A powerful tool for screen recording and live streaming.",
+      "repository": "https://github.com/obsproject/obs-studio",
+      "homepage": "https://obsproject.com/",
+      "latest_version": "29.1.3",
+      "update_date": "2024-11-15",
+      "license": "GPL-2.0",
+      "downloads": [
+        {
+          "platform": "Windows",
+          "url": "https://obsproject.com/download"
+        },
+        {
+          "platform": "macOS",
+          "url": "https://obsproject.com/download"
+        },
+        {
+          "platform": "Linux",
+          "url": "https://obsproject.com/download"
+        }
+      ],
+      "stars": 52000,
+      "forks": 8000,
+      "watchers": 2400
+    },
+    {
+      "id": 4,
+      "name": "Docker CE",
+      "category": "Development",
+      "description": "This repository is deprecated and will be archived (Docker CE itself is NOT deprecated)",
+      "repository": "https://github.com/docker-archive/docker-ce",
+      "homepage": "https://www.docker.com/products/container-runtime",
+      "latest_version": "v19.03.14",
+      "update_date": "2020-12-02T00:14:53Z",
+      "license": "Apache License 2.0",
+      "downloads": [
+        {
+          "platform": "Source Code",
+          "url": "https://api.github.com/repos/docker-archive/docker-ce/zipball/v19.03.14"
+        }
+      ],
+      "stars": 5761,
+      "forks": 1526,
+      "watchers": 5761
+    },
+    {
+      "id": 5,
+      "name": "LibreOffice",
+      "category": "Productivity",
+      "description": "A free and powerful office suite.",
+      "repository": "https://github.com/LibreOffice/core",
+      "homepage": "https://www.libreoffice.org/",
+      "latest_version": "7.6.3",
+      "update_date": "2024-11-20",
+      "license": "MPL-2.0",
+      "downloads": [
+        {
+          "platform": "Windows",
+          "url": "https://www.libreoffice.org/download/libreoffice-fresh/"
+        },
+        {
+          "platform": "macOS",
+          "url": "https://www.libreoffice.org/download/libreoffice-fresh/"
+        },
+        {
+          "platform": "Linux",
+          "url": "https://www.libreoffice.org/download/libreoffice-fresh/"
+        }
+      ],
+      "stars": 12500,
+      "forks": 3000,
+      "watchers": 5000
+    },
+    {
+      "id": 6,
+      "name": "Git",
+      "category": "Development",
+      "description": "A distributed version control system to track changes in source code.",
+      "repository": "https://github.com/git/git",
+      "homepage": "https://git-scm.com/",
+      "latest_version": "2.42.0",
+      "update_date": "2024-10-15",
+      "license": "GPL-2.0",
+      "downloads": [
+        {
+          "platform": "Windows",
+          "url": "https://git-scm.com/download/win"
+        },
+        {
+          "platform": "macOS",
+          "url": "https://git-scm.com/download/mac"
+        },
+        {
+          "platform": "Linux",
+          "url": "https://git-scm.com/download/linux"
+        }
+      ],
+      "stars": 45000,
+      "forks": 17000,
+      "watchers": 5000
+    },
+    {
+      "id": 7,
+      "name": "Node.js",
+      "category": "Development",
+      "description": "A JavaScript runtime built on Chrome's V8 engine for building scalable network applications.",
+      "repository": "https://github.com/nodejs/node",
+      "homepage": "https://nodejs.org/",
+      "latest_version": "20.5.1",
+      "update_date": "2024-09-12",
+      "license": "MIT",
+      "downloads": [
+        {
+          "platform": "Windows",
+          "url": "https://nodejs.org/en/download/"
+        },
+        {
+          "platform": "macOS",
+          "url": "https://nodejs.org/en/download/"
+        },
+        {
+          "platform": "Linux",
+          "url": "https://nodejs.org/en/download/"
+        }
+      ],
+      "stars": 94000,
+      "forks": 24000,
+      "watchers": 8500
+    },
+    {
+      "id": 8,
+      "name": "Inkscape",
+      "category": "Design",
+      "description": "A professional vector graphics editor for creating illustrations, logos, and more.",
+      "repository": "https://gitlab.com/inkscape/inkscape",
+      "homepage": "https://inkscape.org/",
+      "latest_version": "1.3.1",
+      "update_date": "2024-11-01",
+      "license": "GPL-3.0",
+      "downloads": [
+        {
+          "platform": "Windows",
+          "url": "https://inkscape.org/release/inkscape-1.3.1/windows/"
+        },
+        {
+          "platform": "macOS",
+          "url": "https://inkscape.org/release/inkscape-1.3.1/mac/"
+        },
+        {
+          "platform": "Linux",
+          "url": "https://inkscape.org/release/inkscape-1.3.1/linux/"
+        }
+      ],
+      "stars": 10000,
+      "forks": 2500,
+      "watchers": 3500
+    },
+    {
+      "id": 9,
+      "name": "Krita",
+      "category": "Design",
+      "description": "A professional free and open-source painting program for digital artists.",
+      "repository": "https://invent.kde.org/graphics/krita",
+      "homepage": "https://krita.org/",
+      "latest_version": "5.2.1",
+      "update_date": "2024-09-22",
+      "license": "GPL-3.0",
+      "downloads": [
+        {
+          "platform": "Windows",
+          "url": "https://krita.org/en/download/krita-desktop/"
+        },
+        {
+          "platform": "macOS",
+          "url": "https://krita.org/en/download/krita-desktop/"
+        },
+        {
+          "platform": "Linux",
+          "url": "https://krita.org/en/download/krita-desktop/"
+        }
+      ],
+      "stars": 8500,
+      "forks": 1500,
+      "watchers": 2500
+    },
+    {
+      "id": 10,
+      "name": "VLC Media Player",
+      "category": "Multimedia",
+      "description": "A free and open-source multimedia player that plays most media files and streaming protocols.",
+      "repository": "https://github.com/videolan/vlc",
+      "homepage": "https://www.videolan.org/vlc/",
+      "latest_version": "4.0.2",
+      "update_date": "2024-10-30",
+      "license": "GPL-2.0",
+      "downloads": [
+        {
+          "platform": "Windows",
+          "url": "https://www.videolan.org/vlc/download-windows.html"
+        },
+        {
+          "platform": "macOS",
+          "url": "https://www.videolan.org/vlc/download-macosx.html"
+        },
+        {
+          "platform": "Linux",
+          "url": "https://www.videolan.org/vlc/#download"
+        }
+      ],
+      "stars": 9500,
+      "forks": 3500,
+      "watchers": 4000
+    },
+    {
+      "id": 11,
+      "name": "Blender",
+      "category": "Multimedia",
+      "description": "An open-source 3D creation suite supporting modeling, rigging, animation, and more.",
+      "repository": "https://github.com/blender/blender",
+      "homepage": "https://www.blender.org/",
+      "latest_version": "4.1.0",
+      "update_date": "2024-11-10",
+      "license": "GPL-2.0",
+      "downloads": [
+        {
+          "platform": "Windows",
+          "url": "https://www.blender.org/download/"
+        },
+        {
+          "platform": "macOS",
+          "url": "https://www.blender.org/download/"
+        },
+        {
+          "platform": "Linux",
+          "url": "https://www.blender.org/download/"
+        }
+      ],
+      "stars": 92000,
+      "forks": 14000,
+      "watchers": 9000
+    },
+    {
+      "id": 12,
+      "name": "Wireshark",
+      "category": "Security",
+      "description": "A network protocol analyzer for troubleshooting and analysis.",
+      "repository": "https://gitlab.com/wireshark/wireshark",
+      "homepage": "https://www.wireshark.org/",
+      "latest_version": "4.2.0",
+      "update_date": "2024-11-25",
+      "license": "GPL-2.0",
+      "downloads": [
+        {
+          "platform": "Windows",
+          "url": "https://www.wireshark.org/download.html"
+        },
+        {
+          "platform": "macOS",
+          "url": "https://www.wireshark.org/download.html"
+        },
+        {
+          "platform": "Linux",
+          "url": "https://www.wireshark.org/download.html"
+        }
+      ],
+      "stars": 5500,
+      "forks": 1500,
+      "watchers": 2000
+    },
+    {
+      "id": 13,
+      "name": "OpenVPN",
+      "category": "Networking",
+      "description": "A full-featured open-source VPN solution for secure connections.",
+      "repository": "https://github.com/OpenVPN/openvpn",
+      "homepage": "https://openvpn.net/",
+      "latest_version": "2.6.5",
+      "update_date": "2024-10-10",
+      "license": "GPL-2.0",
+      "downloads": [
+        {
+          "platform": "Windows",
+          "url": "https://openvpn.net/community-downloads/"
+        },
+        {
+          "platform": "macOS",
+          "url": "https://openvpn.net/community-downloads/"
+        },
+        {
+          "platform": "Linux",
+          "url": "https://openvpn.net/community-downloads/"
+        }
+      ],
+      "stars": 8000,
+      "forks": 2200,
+      "watchers": 3000
+    },
+    {
+      "id": 14,
+      "name": "Ansible",
+      "category": "Automation",
+      "description": "An open-source IT automation tool for orchestration and configuration management.",
+      "repository": "https://github.com/ansible/ansible",
+      "homepage": "https://www.ansible.com/",
+      "latest_version": "2.15.0",
+      "update_date": "2024-10-05",
+      "license": "GPL-3.0",
+      "downloads": [
+        {
+          "platform": "Windows",
+          "url": "https://docs.ansible.com/ansible/latest/installation_guide/index.html"
+        },
+        {
+          "platform": "macOS",
+          "url": "https://docs.ansible.com/ansible/latest/installation_guide/index.html"
+        },
+        {
+          "platform": "Linux",
+          "url": "https://docs.ansible.com/ansible/latest/installation_guide/index.html"
+        }
+      ],
+      "stars": 56000,
+      "forks": 22000,
+      "watchers": 10000
+    },
+    {
+      "id": 15,
+      "name": "Terraform",
+      "category": "Automation",
+      "description": "Infrastructure as code tool to safely and efficiently manage cloud services.",
+      "repository": "https://github.com/hashicorp/terraform",
+      "homepage": "https://www.terraform.io/",
+      "latest_version": "1.6.0",
+      "update_date": "2024-09-15",
+      "license": "MPL-2.0",
+      "downloads": [
+        {
+          "platform": "Windows",
+          "url": "https://www.terraform.io/downloads.html"
+        },
+        {
+          "platform": "macOS",
+          "url": "https://www.terraform.io/downloads.html"
+        },
+        {
+          "platform": "Linux",
+          "url": "https://www.terraform.io/downloads.html"
+        }
+      ],
+      "stars": 40000,
+      "forks": 8500,
+      "watchers": 7200
+    },
+    {
+      "id": 16,
+      "name": "Jitsi Meet",
+      "category": "Productivity",
+      "description": "Secure and scalable open-source video conferencing solution.",
+      "repository": "https://github.com/jitsi/jitsi-meet",
+      "homepage": "https://meet.jit.si/",
+      "latest_version": "2.1.123",
+      "update_date": "2024-11-18",
+      "license": "Apache-2.0",
+      "downloads": [
+        {
+          "platform": "Windows",
+          "url": "https://jitsi.org/downloads/"
+        },
+        {
+          "platform": "macOS",
+          "url": "https://jitsi.org/downloads/"
+        },
+        {
+          "platform": "Linux",
+          "url": "https://jitsi.org/downloads/"
+        }
+      ],
+      "stars": 18000,
+      "forks": 6000,
+      "watchers": 4000
+    },
+    {
+      "id": 17,
+      "name": "Zim",
+      "category": "Productivity",
+      "description": "A graphical text editor for managing collections of wiki pages.",
+      "repository": "https://github.com/zim-desktop-wiki/zim-desktop-wiki",
+      "homepage": "https://zim-wiki.org/",
+      "latest_version": "0.74.2",
+      "update_date": "2024-08-30",
+      "license": "GPL-2.0",
+      "downloads": [
+        {
+          "platform": "Windows",
+          "url": "https://zim-wiki.org/downloads.html"
+        },
+        {
+          "platform": "macOS",
+          "url": "https://zim-wiki.org/downloads.html"
+        },
+        {
+          "platform": "Linux",
+          "url": "https://zim-wiki.org/downloads.html"
+        }
+      ],
+      "stars": 3000,
+      "forks": 800,
+      "watchers": 1200
+    }             
+
+  ]
+  

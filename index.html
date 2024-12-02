@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open Source Software Listing</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <h1>Open Source Software Listing</h1>
+        <p>Explore the best open-source tools for development, design, and more.</p>
+        <input
+          type="text"
+          id="search-bar"
+          placeholder="Search for a product..."
+          oninput="filterProducts()"
+          style="width: 100%; padding: 10px; margin-top: 10px;"
+        />
+      
+        <!-- Category Filters -->
+        <div id="filter-wrapper">
+          <button id="scroll-left" class="scroll-arrow">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <div id="category-filters-wrapper">
+            <div id="category-filters" class="scrollable">
+              <button onclick="filterByCategory('all')">All</button>
+              <button onclick="filterByCategory('favorites')">Favorites</button>
+              <button onclick="filterByCategory('Development')">Development</button>
+              <button onclick="filterByCategory('Design')">Design</button>
+              <button onclick="filterByCategory('Multimedia')">Multimedia</button>
+              <button onclick="filterByCategory('Productivity')">Productivity</button>
+              <button onclick="filterByCategory('Security')">Security</button>
+              <button onclick="filterByCategory('Networking')">Networking</button>
+              <button onclick="filterByCategory('Automation')">Automation</button>
+            </div>
+          </div>
+          <button id="scroll-right" class="scroll-arrow">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>                                      
+      </header>
+
+      <div id="product-modal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <div id="modal-details"></div>
+        </div>
+      </div>
+      
+  <main id="product-list">
+    <!-- Products will be dynamically added here -->
+  </main>
+
+  <footer>
+    <p>Created with ❤️ by Shekhar Vaidya(and AI)</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

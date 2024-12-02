@@ -1,0 +1,339 @@
+html, body {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  margin: 0; /* Remove any unintended margin */
+  padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    color: #333;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+ /* Ensure the container doesn't overflow */
+#search-container {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the search bar */
+  #search-bar {
+    width: 100%; /* Make the search bar responsive */
+    max-width: 100%; /* Prevent overflow */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Add responsiveness for smaller screens */
+  @media (max-width: 768px) {
+    #search-bar {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+   
+  main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .product-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    position: relative;
+    padding-top: 10px; /* Add padding to avoid overlap */
+  }
+
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-color: #007bff;
+  }
+  
+  .product-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .product-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .product-card ul li {
+    margin: 5px 0;
+  }
+  
+  .product-card ul li a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .product-card ul li i {
+    color: #333;
+    font-size: 18px;
+    vertical-align: middle;
+  }  
+  
+  .product-card ul li a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+/* Ensure the list of links is displayed horizontally */
+.download-links {
+    display: flex;
+    gap: 15px; /* Space between items */
+    padding: 0;
+    margin: 10px 0;
+    list-style-type: none;
+  }
+  
+  /* Style individual list items */
+  .download-links li {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style the icons and links */
+  .download-links li i {
+    color: #333;
+    font-size: 18px;
+    vertical-align: middle;
+  }
+  
+  .download-links li a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .download-links li a:hover {
+    text-decoration: underline;
+  }
+
+  .download-links li:hover i {
+    color: #007bff; /* Change icon color on hover */
+  }
+  
+  
+  @media (max-width: 768px) {
+    .download-links {
+      flex-wrap: wrap; /* Allow links to wrap */
+      gap: 10px;       /* Adjust spacing for smaller screens */
+    }
+  }
+  
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #category-filters button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f4f4f9;
+    transition: background-color 0.3s;
+  }
+  
+  #category-filters button:hover {
+    background-color: #ddd;
+  }
+  
+  #category-filters button.active {
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Position the favorite container */
+.favorite-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+}
+  .favorite-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .favorite-btn i {
+    color: gray;
+    transition: color 0.3s ease;
+  }
+  
+  .favorite-btn i.favorite {
+    color: gold;
+  }
+  
+  .favorite-btn:hover i {
+    color: gold;
+  }
+
+  /* Modal container */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+  }
+  
+  /* Modal content box */
+  .modal-content {
+    background: #fff;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    position: relative;
+    text-align: left;
+  }
+  
+  /* Close button */
+  .modal .close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .modal .close:hover {
+    color: red;
+  }
+
+/* Wrapper for the filter with arrows */
+#filter-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden; /* Prevent content overflow */
+  width: 100%; /* Ensure the wrapper does not exceed the viewport width */
+}
+
+/* Horizontal scrolling container */
+#category-filters-wrapper {
+  overflow-x: auto;
+  flex-grow: 1;
+  white-space: nowrap;
+  display: flex;
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar for IE */
+  max-width: 100%; /* Ensure the inner wrapper doesn't exceed the parent */
+}
+
+#category-filters-wrapper::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for WebKit browsers */
+}
+
+/* Buttons within the scrollable container */
+.scrollable {
+  display: flex;
+  gap: 10px; /* Ensure controlled spacing */
+  margin-right: 0; /* Prevent unintended extra spacing */
+  padding: 0 10px; /* Add padding for alignment */
+}
+
+.scrollable button {
+  flex-shrink: 0; /* Prevent shrinking */
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f4f4f9;
+  transition: background-color 0.3s ease;
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.scrollable button:hover {
+  background-color: #ddd;
+}
+
+.scrollable button.active {
+  background-color: #333;
+  color: white;
+}
+
+/* Arrows for scrolling */
+.scroll-arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px;
+  color: #333;
+  transition: color 0.3s;
+  z-index: 10;
+}
+
+.scroll-arrow:hover {
+  color: #007bff;
+}
+
+#scroll-left {
+  position: absolute;
+  left: 0;
+}
+
+#scroll-right {
+  position: absolute;
+  right: 0;
+}
